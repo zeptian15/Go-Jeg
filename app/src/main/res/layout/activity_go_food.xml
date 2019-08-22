@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoFood"
+    android:layout_marginLeft="@dimen/actvity_horizontal_margin"
+    android:layout_marginRight="@dimen/actvity_horizontal_margin"
+    android:layout_marginBottom="@dimen/actvity_vertical_margin"
+    android:orientation="vertical">
+
+    <!--Image View Logo Gofood-->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/menu_gofood"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+    <!--TextView GoFood-->
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Go Food"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#28DD34"/>
+
+    <!--Edit Text Nama-->
+    <EditText
+        android:id="@+id/edt_nama"
+        android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Masukan Nama"
+        android:background="@drawable/custom_edit"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <!--Edit Text Nama-->
+    <EditText
+        android:id="@+id/edt_alamat"
+        android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Masukan Alamat"
+        android:background="@drawable/custom_edit"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <!--Edit Text Pesanan-->
+    <EditText
+        android:id="@+id/edt_pesanan"
+        android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Masukan Pesanan"
+        android:background="@drawable/custom_edit"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <!--Button Pesan Sekarang-->
+    <Button
+        android:id="@+id/btn_pesan"
+        android:layout_marginTop="20dp"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Pesan Sekarang"
+        android:background="@drawable/custom_button"/>
+
+</LinearLayout>
